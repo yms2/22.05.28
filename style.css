@@ -1,0 +1,114 @@
+#wrap{width: 100%;}
+
+#header{
+    width: 1200px;height: 200px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+
+
+#header .t_name{
+    float: left;
+    padding-left: 30px;
+    line-height: 200px;
+}
+#header .t_search{
+    width:300px;height: 60px;
+    border-bottom: 1px solid rgb(43, 43, 43);
+    float: right;
+    margin: 70px 50px;
+    font-size: 25px;
+}   
+#header .t_search p{
+    float: left;
+    padding-top: 19px;
+}
+#header .t_search img{
+    width: 25px;
+    padding-top: 19px;
+    float: right;
+}
+
+#nav{
+    width: 1200px;height: 80px;
+    border-top:1px solid #000 ;
+    border-bottom:1px solid #000 ;
+    margin:0 auto;
+    font-style: '맑은 고딕';
+}
+#nav ul{
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 80px;
+    padding-left: 50px;
+}
+#nav li{
+    float: left;
+    padding-right: 50px;
+}
+#contents .cont_top{
+    width: 1200px;height: 120px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 120px;
+}
+#contents .cont_l{
+    float: left;
+    width: 800px; height: 120px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+#contents .cont_r{
+    float: right;
+    width: 350px;height: 120px;
+    border-bottom: 1px solid #000; 
+    text-align: left;
+}
+#contents .cont_txt{
+    margin: 0 auto;
+    width: 1200px;height: 1500px;
+}
+#contents .txtr{
+    float: left;
+    width: 800px;height: 1500px;
+    background-color: aqua;
+}
+#contents .txtr_1{
+    width: 800px;height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    border-bottom: 1px solid #000;
+}
+#contents .txtr_2{
+    margin-top: 30px;
+    width: 798px;height: 250px;
+    background-color: beige;
+    border: 1px solid #000;
+}
+#contents .txtr_2 p{
+    margin: 0 auto;
+    width: 750px;height: 70px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+}
+#contents .txtr_2 ul{
+    margin: 0 auto;
+    padding:20px 0 0 40px;
+    width: 750px;height: 180px;
+    line-height: 35px;
+}
+#contents .txtr_2 li{
+    list-style:decimal ;
+}
+
+
+#contents .txtl{
+    float: right;
+    width: 350px;height: 1500px;
+    background-color: brown;
+}
